@@ -7,7 +7,7 @@ for i in range(0,10):
 print("\nEnd of the star pattern")
 print("Done by Naga Aravind Kundeti")
 n=int(input("Enter the year: "))
-if (n % 4):
+if (n % 400 == 0) or (n % 4 == 0 and n % 100 != 0):
     print("Its a leap year")
 else:
     print("Not a Leap year")
