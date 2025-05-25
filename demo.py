@@ -6,3 +6,8 @@ for i in range(0,10):
     print(" ")
 print("\nEnd of the star pattern")
 print("Done by Naga Aravind Kundeti")
+n=int(input("Enter the year: "))
+if (n % 4):
+    print("Its a leap year")
+else:
+    print("Not a Leap year")
